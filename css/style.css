@@ -1,3 +1,28 @@
-h1 {
-    color: brown;
+
+.header {
+    background-color: lightgray;
+    padding: 20px;
+    text-align: right;
+    postion: relative;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header_title{
+   text-align: left;
+   font-size: 20px;
+}
+
+.header_subtitle {
+    text-align: left;
+}
+
+.Header_Picture {
+    width: 80px;             
+    max-width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    position:fixed;
+    right: 10;
+    top: 13;
+
 }
