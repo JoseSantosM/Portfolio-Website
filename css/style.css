@@ -16,13 +16,13 @@
     text-align: left;
 }
 
-.Header_Picture {
-    width: 80px;             
+.AboutMeImage {
+    width: 450px;             
     max-width: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-    position:fixed;
-    right: 10;
-    top: 13;
+    padding: 10 0;
+    float:left;
+}
 
+.AboutMe {
+    font-family: 'Montserrat', sans-serif;
 }
