@@ -1,14 +1,29 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.skills {
+    padding: 20px;
+    display:flex;
+    gap: 20px
+}
+
+.skills img {
+    width: 50px;
+    height: auto;
+}
+
+.skills p {
+    text-align: center;
+}
 
 .header {
     background-color: lightgray;
     padding: 20px;
-    text-align: right;
-    postion: relative;
-    font-family: 'Montserrat', sans-serif;
 }
 
 .header_title{
-   text-align: left;
+   text-align: Center;
    font-size: 20px;
 }
 
@@ -18,14 +33,14 @@
 
 
 .AboutMe {
-    font-family: 'Montserrat', sans-serif;
     display: flex;
     padding: 20px;
+    gap: 10px;
 }
 
 .AboutMeImage {
-    width: 450er;             
+    width: 450em;             
     max-width: 100%;
     padding: 10px;
-
+    height: auto;
 }
